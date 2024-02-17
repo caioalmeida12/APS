@@ -1,0 +1,18 @@
+{
+  "name": "aps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "builder": "nodemon --watch 'builder/**/*.ts' --exec ts-node builder/Diretor.ts",
+    "prototype": "nodemon --watch 'prototype/**/*.ts' --exec ts-node prototype/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
