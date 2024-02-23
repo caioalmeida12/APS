@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "builder": "nodemon --watch 'builder/**/*.ts' --exec ts-node builder/Diretor.ts",
-    "prototype": "nodemon --watch 'prototype/**/*.ts' --exec ts-node prototype/index.ts"
+    "prototype": "nodemon --watch 'prototype/**/*.ts' --exec ts-node prototype/index.ts",
+    "chainOfResponsibility": "nodemon --watch 'chainOfResponsibility/**/*.ts' --exec ts-node chainOfResponsibility/index.ts"
   },
   "keywords": [],
   "author": "",
